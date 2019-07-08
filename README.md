@@ -4,7 +4,7 @@ Given the lengths of the sides of a triangle, this program determines whether it
 ## Solution
 Before any type can be determined, we must first determine if the inputs of the three sides could actually make a triangle. <i>validTriangle</i> must first check that exactly 3 non-null integers greater than 0 are passed in. 
 
-If the lengths input are considered valid, <i>validTriangle</i> then checks whether sum of the lengths of any two sides of the triangle, the sum is greater than the third.
+If the lengths input are considered valid, <i>validTriangle</i> then checks whether sum of the lengths of any two sides of the triangle is greater than the third.
 
 Once determined that the lengths input do make a valid triangle, triangleType determines what type it is. For efficiency, triangleType checks whether it is equilateral first as there is only one possible way to be an equilateral triangle, and that is if all sides are equal. 
 
