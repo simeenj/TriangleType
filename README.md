@@ -1,4 +1,4 @@
-# TriangleType
+## TriangleType
 Given the lengths of the sides of a triangle, this program determines whether it is an equilateral, isosceles, or scalene triangle.
 
 ## Solution
@@ -14,8 +14,8 @@ If it's been determined that the lengths given do make a valid triangle, and the
 
 If the inputs are invalid, then no type can be determined and triangleType just returns null. If the inputs are valid, but they do not pass the Triangle Inequality Theorem to form a triangle, triangleType returns "Not a Triangle".
 
-#Stepts to run :
+## Steps to run :
 1. Clone this repository
-2. Import project in Eclipse or IntelliJ
+2. Import project in Eclipse or IntelliJ 
 3. Build maven project (to download all dependencies) => Clean and Install
 4. Right click on 'TriangleTest' and run
